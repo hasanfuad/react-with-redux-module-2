@@ -4,7 +4,7 @@ const initialState = {
   value: 0,
 };
 
- const dynamicReducer = (state = initialState, action) => {
+ const dynamicCounterReducer = (state = initialState, action) => {
   switch (action.type) {
     case DINCREMENT:
       return {
@@ -23,4 +23,4 @@ const initialState = {
   }
 };
 
-export default dynamicReducer;
+export default dynamicCounterReducer;
