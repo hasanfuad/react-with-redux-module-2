@@ -1,3 +1,3 @@
-export const DINCREMENT = 'dIncrement'
-export const DDECREMENT = 'dDecrement'
+export const DINCREMENT = 'dynamicCounter/dIncrement'
+export const DDECREMENT = 'dynamicCounter/dDecrement'
 

@@ -1,7 +1,7 @@
 import { DDECREMENT, DINCREMENT } from "./dActionTypes";
 
 const initialState = {
-  value: 0,
+  value: 20,
 };
 
  const dynamicCounterReducer = (state = initialState, action) => {
